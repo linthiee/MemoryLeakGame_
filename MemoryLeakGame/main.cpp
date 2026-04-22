@@ -1,4 +1,5 @@
 #include "player.h"
+#include <iostream>
 #include <conio.h>
 
 void hideCursor();
@@ -9,7 +10,7 @@ void main()
 	float screenHeight = 5.0f;
 
 	player* aabb = new player();
-	aabb->character = new char('>');
+	aabb->character = '>';
 	aabb->position = new Vector2{ screenWidth / 2, screenHeight / 2 };
 	aabb->lastPositiion = aabb->position;
 
@@ -46,18 +47,14 @@ void main()
 	delete aabbaabbb;
 	delete aabbaabbbbb;
 	delete abaabbaabbbbb;
-	delete abbbabbbbb;
 	delete abababababbaabbbbb;
 	delete abbbabaabbbbb;
-	delete abbaababbbbb;
 	delete abbaabb;
-	delete abbaabbaabbbaaabbb;
 	delete abbaabbaabbbaaabbb;
 	delete abbaabbaabaabbbb;
 	delete abbaabbaabbaaaabbabbb;
 	delete abbaabbaabbbbbbbbb;
 	delete abbaabbaabbbbbaaaa;
-	delete abbaabbaabbaaaabbb;
 	delete abbaabbaabbbbbbb;
 }
 

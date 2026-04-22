@@ -47,7 +47,6 @@ void Draw(player* player)
 
 void Destroy(player* player)
 {
-	delete player->character;
 	delete player->position;
 	delete player;
 }

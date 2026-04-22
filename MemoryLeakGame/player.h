@@ -11,10 +11,10 @@ struct Vector2
 
 struct player
 {
-	char* character = new char(' ');
+	char character;
 
 	Vector2* position = new Vector2({ 0.0f, 0.0f });
-	Vector2* lastPositiion;
+	Vector2* lastPositiion = position;
 };
 
 void Move(player* player);
