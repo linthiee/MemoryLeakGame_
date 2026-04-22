@@ -6,7 +6,7 @@ using namespace std;
 Asteroid CreateAsteroid(Asteroid& asteroid, float width, float height)
 {
 	SetSpawn(asteroid.spawnPos, width, height);
-
+    asteroid.asteroid = new char('0');
 	return asteroid;
 }
 

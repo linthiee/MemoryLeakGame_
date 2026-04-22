@@ -15,7 +15,7 @@ struct Asteroid
 {
 	Vector2 pos;
 	Vector2 spawnPos;
-	char asteroid;
+	char* asteroid;
 	bool lider;
 };
 
